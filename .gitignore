@@ -1,0 +1,5 @@
+
+# Folders
+.vscode/
+checkpoint-*/
+models/faster-whisper-base-ar-quran/

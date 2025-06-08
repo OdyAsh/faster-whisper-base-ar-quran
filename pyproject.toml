@@ -1,0 +1,13 @@
+[project]
+name = "faster-whisper-base-ar-quran"
+version = "0.1.0"
+authors = [
+    { name = "OdyAsh", email = "ashicsresources@gmail.com" },
+]
+license = { file = "LICENSE" }
+description = "Repo showcasing dependencies required to run `ct2-transformers-converter` command for generating the faster-whisper-base-ar-quran model: https://huggingface.co/OdyAsh/faster-whisper-base-ar-quran"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "transformers[torch]>=4.52.4",
+]
